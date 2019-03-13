@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/agregarpedido.css">
+
+<html>
+    
+    <head>
+        <title>Agregar un nuevo pedido</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <h1>Agregar un nuevo pedido</h1>
+        <form action="agregaPedido.php" method="POST">
+            
+                IDCliente: <input type="text" name="Compra_Cliente_IDCliente">
+                <br><br>
+		        IDCompra: <input type="text" name="Compra_IDCompra">
+                <br><br>
+                IDProducto: <input type="text" name="Producto_IDProducto">
+                <br><br>
+                Cantidad: <input type="text" name="Cantidad">
+                <br><br>
+                Fecha: <input type="date" name="Fecha_Entrega">
+                <br><br>
+                <button id=agregar
+            	<input type="submit" value="Agregar">
+                Agregar
+                </button>
+        
+        </form>
+    <br><br><br><br><br><br><br><br><br><br>
+         <form id= menu action="Menu.html" method="POST">
+            
+             <button id=buttonmenu
+             <input type="submit" value="Menu">
+             Regresar al Menú Principal
+             </button>
+        </form>
+    </body>
+</html>

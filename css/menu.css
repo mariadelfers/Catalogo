@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: skyblue;
+    position: relative;
+}
+
+button{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 25px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}
+
+#clientes{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80px;
+    position: relative;
+    left: 45%;
+}
+
+#pedidos{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80px;
+    position: relative;
+    left: 45%;
+}
+
+#orden{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80px;
+    position: relative;
+    left: 45%;
+}
+   
+#extras{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80px;
+    position: relative;
+    left: 45%;
+}

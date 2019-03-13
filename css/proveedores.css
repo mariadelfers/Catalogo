@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    color: skyblue;
+    position: relative;
+}
+
+form{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    left:0%;    
+}
+
+input{
+    border-color: aqua;
+    align-content: center;    
+}
+
+button{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 25px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}
+
+#mostrarproveedores{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    height: 25px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    left:0%;    
+}
+
+#buttonmostrar{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 30px;
+    width: 230px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center; 
+}
+
+#proveedorid{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 600px;
+    height: 30px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    left:-2%; 
+}
+
+#proveedoresnombre{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 600px;
+    height: 30px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    left:.3%; 
+}
+
+#menu{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: -40%;
+}
+
+#buttonmenu{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}

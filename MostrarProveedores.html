@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/proveedores.css">
+
+<html>
+    
+    <head>
+        <title>Proveedores</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        
+        <h1>Lista de proveedores</h1> 
+        
+        <form id=mostrarproveedores action="Proveedores.php" method="POST">
+            
+            <button id=buttonmostrar
+            <input type="submit" value="Mostrar todos">
+            Mostrar todos los Proveedores
+            </button>
+        
+        </form>
+        
+        <form id=proveedorid action="ProveedoresID.php" method="POST">
+            
+            ID del Proveedor: <input type="text" name="IDProveedor">
+            
+            <button id=buttonprovedorid
+            <input type="submit" name="Buscar">
+            Buscar
+            </button>
+    
+        </form>
+        
+        <form id=proveedoresnombre action="ProveedoresNombre.php" method="POST">
+            
+            Nombre: <input type="text" name="Nombre_Proveedor">
+            
+            <button id=buttonproveedoresnombre
+            <input type="submit" name="Buscar">
+            Buscar
+            </button>
+
+        </form>
+        
+        <form id=menu action="Menu.html" method="POST">
+            <button id=buttonmenu
+            <input type="submit" value="Menu">
+            Regresar al Menú Principal
+            </button>
+        </form>
+        
+    </body>
+</html>

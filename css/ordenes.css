@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    color: skyblue;
+    position: relative;
+}
+
+button{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 25px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}
+
+#orden{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    height: 25px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    left:0%;
+}
+
+#buttonorden{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center; 
+}
+
+#inputorden{
+    border-color: aqua;
+    align-content: center;    
+}
+
+#menu{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 0%;
+}
+
+#buttonmenu{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}

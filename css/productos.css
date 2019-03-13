@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+    color: skyblue;
+    position: relative;
+}
+
+button{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 25px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}
+
+#mostrar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    height: 25px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    left:-1.3%;
+}
+
+#buttonmostrar{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center; 
+}
+        
+#buscar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 800px;
+    height: 25px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    left: -5.5%;
+}
+
+#inputbuscar{
+    border-color: aqua;
+    align-content: center;    
+}
+
+#marca{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 800px;
+    height: 25px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    left: 0%;
+}
+
+#inputmarca{
+    border-color: aqua;
+    align-content: center;
+}
+
+#menu{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    left: 0%;
+}
+
+#buttonmenu{
+    border-radius: 40px;
+    border: 2px solid #FFCCFF;
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+}

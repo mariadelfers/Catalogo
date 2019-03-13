@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/clientes.css">
+	
+<html>  
+    <head>
+        <title>Buscar clientes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+    	
+        <h1>Búsqueda de clientes</h1>
+        
+        <form id= buscarcliente action="ClientesNombre.php" method="POST">
+            Nombre del Cliente: <input id=inputnombre type="text" name="nombre">
+            <button
+            <input type="submit" value="Buscar">
+            Buscar
+            </button>
+        </form>
+        
+        <form id=buscaridcliente action="ClientesClave.php" method="POST">
+        	ID del Cliente: <input id=inputidcliente type="text" name="clave">
+        	<button
+            <input type="submit" value="Buscar">
+            Buscar
+            </button>
+        </form>
+        
+        <form id=mostrar action="Clientes.php">
+            <button id=buttonmostrar
+    		<input type="submit" value="Mostrar todos">
+            Mostrar todos los Clientes
+            </button>
+    	</form>
+       
+        <form id=agregar action="AgregarCliente.html" method="POST">
+            <button id=buttonagregar
+            <input type="submit" value="Agregar cliente">
+            Agregar nuevo Cliente
+            </button>
+        </form>
+        
+        <form id=menu action="Menu.html" method="POST">
+            <button id=buttonmenu
+            <input type="submit" value="Menu">
+            Menú Principal
+            </button>
+        </form>
+    </body>
+</html>

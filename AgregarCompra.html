@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/agregarcompra.css">
+
+<html>
+    <head>
+        <title>Agrega nueva compra</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <h1>Agregar nueva compra</h1>
+        
+        <form action="agregaCompra.php" method="POST">
+            
+		        IDCompra: <input type="text" name="IDCompra">
+                <br><br>
+                Total: <input type="text" name="Total_Vendido">
+                <br><br>
+                IDCliente: <input type="text" name="Cliente_IDCliente">
+                <br><br>
+                Fecha: <input type="date" name="Fehcha_Entrega">
+                <br><br>
+                <button id=buttonagregar
+            	<input type="submit" value="Agregar">
+                Agregar
+                </button>    
+        </form>
+        <br><br><br>            
+        <form id=menu action="Menu.html" method="POST">
+            
+            <button id=buttonmenu
+            <input type="submit" value="Menu">
+            Regresar al Menú Principal
+            </button>
+                    
+        </form>
+    </body>
+</html>

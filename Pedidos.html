@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/pedidos.css">
+
+<html>
+    <head>
+        
+        <title>Hacer consultas de Pedidos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    
+    <body>
+        
+        <h1>Pedidos</h1>
+        
+        <form id=pedidos action="Pedidos.php" method="POST">
+            <button id=buttonpedidos
+            <input type="submit" value="Mostrar todos los Pedidos.">
+            Mostrar todos los Pedidos
+            </button>
+        </form>
+        
+        <form id=buscarfecha action="PedidosFecha.php" method="POST">
+            <button id=buttonbuscarfecha
+            <input type="submit" value="Buscar por fecha">
+            Búsqueda por fecha
+            </button>
+        </form>
+        
+        <form id=idcliente action="PedidosCliente.php" method="POST">
+            Buscar pedidos por ID Cliente: 
+            <br>
+            <input id=inputidcliente type="text" name="IDCliente">
+            <button id=buttonidcliente
+            <input type="submit" value="Buscar">
+            Buscar
+            </button>
+        </form>
+        
+        <br>
+        <form id=agregarpedido action="AgregarPedido.html" method="POST">
+            <button id=buttonagregarpedido pedido
+            <input type="submit" value="Agregar nuevo pedido">
+            Agregar nuevo pedido
+            </button>
+        </form>
+        
+        <form id=menu action="Menu.html" method="POST">
+            <button id=buttonmenu
+            <input type="submit" value="Menu">
+            Regresar al Menú Principal
+            </button>
+        </form>
+
+    </body>
+</html>
